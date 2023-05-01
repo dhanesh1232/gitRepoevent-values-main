@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.main-page {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+.page-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 75%;
+}
+.main-head {
+  font-size: 40px;
+  font-family: 'Lobster';
+}
+.tab-items {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.repo-file {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-image {
+  width: 250px;
+  height: 180px;
+}
+.error-message {
+  color: #1e293b;
+}
